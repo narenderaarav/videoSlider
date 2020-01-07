@@ -20,3 +20,34 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.video-wrapper{
+  width: 100%;
+  position: relative;
+  
+}
+.image-gallery-thumbnails-wrapper{
+  position: absolute!important;
+  right:40px!important;
+  bottom: 150px!important;
+  z-index: 9999!important;
+}
+/* html { overflow-y: hidden; } */
+/* body{
+  object-fit: cover;
+  
+} */
+
+/* video {
+  width: 100%    !important;
+  height: auto   !important;
+  overflow: hidden!important;
+} */
+
+video {
+  min-width: 100%;
+    min-height: 100%;
+    overflow: hidden!important;
+  
+}
